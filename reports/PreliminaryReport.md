@@ -15,7 +15,7 @@ For our first project, we are investigating C security. We will be researching e
 - We modified/commented the jailbroken source code to do something else.
 - We found code in a library, project or operating system that can be exploited.
 - We downloaded an old version of a linux/unix OS, and recreated and documented an exploit that was found for that kernel/OS. [Dirty Cow Exploit] (https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/dirty_cow/README.md) 
-- We have performed all of the exercises https://exploit-exercises.com/nebula/ and https://exploit-exercises.com/protostar/ and provided write-ups of what the vulnerability was, how we exploited it, and how it can be mitigated.
+- We have performed all of the exercises https://exploit-exercises.com/nebula/ and https://exploit-exercises.com/protostar/ and provided write-ups of what the vulnerability was, how we exploited it, and how it can be mitigated. 
 
 ###Project Progress
 Our project’s Trello board can be found [here] (https://trello.com/b/a5FLTuaz/softsyscalamitouscaribou). For information about the tasks that we’ve completed on the project, take a look at the “Project Done” list.
@@ -34,6 +34,8 @@ This is a jailbreak for iOS 6 called p0sixspwn. The source code for the posix_sp
 - We also created an example of a format string vulnerability. A write-up of the vulnerability and example code that can be exploited exist in this [README](https://github.com/runnersaw/SoftSysCalamitousCaribou/tree/master/Security/test_exploits/StringFormatVulnerability).
 - We have researched an exploit found in modern versions of Linux called Dirty COW. It is called Dirty COW because there is a bug in how the Linux kernel handled copy-on-write in a very specific way that allows users to write to files that they don’t have privileges to write to. A write-up that includes code and scripts for testing the exploit can be found [here](https://github.com/runnersaw/SoftSysCalamitousCaribou/tree/master/Security/test_exploits/dirty_cow).
 - We have been working on compiling the p0sixspwn jailbreak tool but have been running into issues due to the age of the code and difficulty installing the libraries that it needs on modern operating systems.
+- We have completed 10 of the Nebula vulnerability exercises. Solutions are [here](https://github.com/runnersaw/SoftSysCalamitousCaribou/tree/master/Security/nebulaExploits)
+- We have completed 2 of the Protostar exercises. Solutions are found [here](https://github.com/runnersaw/SoftSysCalamitousCaribou/tree/master/Security/protostarExploits)
 
 ###Product Backlog
 Our product backlog is [here](https://trello.com/b/a5FLTuaz/softsyscalamitouscaribou). The things that we are planning to do in the next sprint are now in the “This Sprint” list. There are a few tasks left in the “Backlog” that we are not planning to include as part of the sprint but we will do them if we have more time. 
