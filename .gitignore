@@ -31,3 +31,6 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Dirty_cow protected file
+Security/test_exploits/dirty_cow/protected_file
