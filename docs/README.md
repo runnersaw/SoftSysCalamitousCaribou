@@ -15,18 +15,42 @@ We aimed to investigate types of general vulnerabilites that can be used by hack
 
 In fitting with the focus of the class, the emphasis of vulnerabilites researched revolves around Unix and C vulnerabilites.
 
-### Simple Exploit Demonstrations
+### Project Work
 
-A basic buffer overflow demonstration:
-[Buffer Overflow](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/buffer_overflow)
+After researching many different types of vulnerabilities, we created proof-of-concept exploits for a few types of vulnerabilities. For exploitable C code, we created C code that could reasonably exist in real-world projects. Then, we explained how the code could be exploited, and the steps that one would have to take to exploit the code. Included in the write-up of each vulnerability is steps that developers can take to mitigate that type of vulnerability in their code.
+
+As well as a few C code exploitation demonstrations, we researched a well-known, recent zero-day vulnerability in the Linux kernel. For this, we included code and instructions to demonstrate the vulnerability on the user's operating system.
+
+We also discovered the website [exploit-exercises.com](https://exploit-exercises.com/), which included a set of levels demonstrating various types of vulnerabilities. The site provides a virtual machine that is set up with these hypothetical users and environment. We performed many of the exploits provided by this website and provided write-ups for the levels that we completed.
+
+#### C Exploits
+
+##### Buffer Overflow
+
+Here is our buffer overflow demonstration:
+[Buffer Overflow](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/buffer_overflow).
+
+A buffer overflow is when a program writes outside of the bounds of an array or buffer, accidentally overwriting memory that it should not be accessing. This type of vulnerability can allow others to run any code that they would like.
+
+##### String Format
 
 An example of using printf to pass malicious string data:
-[String Format](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/StringFormatVulnerability)
+[String Format](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/StringFormatVulnerability).
+
+This type of vulnerability allows users to overwrite arbitrary locations in memory, enabling them to gain access to a shell.
+
+#### Linux Exploit
+
+##### Dirty Cow
 
 A recent zero-day race condition for bypassing file permissions:
-[Dirty C0W](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/dirty_cow)
+[Dirty C0W](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/dirty_cow).
 
-### Nebula Exercises
+This is a vulnerability for Linux kernels that existed on even the newest versions of Linux operating systems in 2016. It exploits a bug in a copy-on-write operation in order to overwrite a file that the user should not have access to.
+
+#### Exploit Exercises
+
+##### Nebula Exercises
 
 A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/nebula/) to be useful for learning about UNIX exploit techniques:
 
@@ -41,10 +65,9 @@ A collection of exercises that we found at [exploit-exercises.com](https://explo
 [Level 9](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level09.md)
 [Level 10](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level10.md)
 
-### Protostar Exercises
+##### Protostar Exercises
 
 A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/protostar/) to be useful for learning about C exploit techniques:
-
 
 [Stack 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack0.md)
 [Stack 3](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack3.md)
