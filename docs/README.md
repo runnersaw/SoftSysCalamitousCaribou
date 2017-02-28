@@ -54,16 +54,45 @@ This is a vulnerability for Linux kernels that existed on even the newest versio
 
 A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/nebula/) to be useful for learning about UNIX exploit techniques:
 
-[Level 1](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level01.md)
-[Level 2](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level02.md)
-[Level 3](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level03.md)
-[Level 4](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level04.md)
-[Level 5](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level05.md)
-[Level 6](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level06.md)
-[Level 7](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level07.md)
-[Level 8](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level08.md)
-[Level 9](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level09.md)
-[Level 10](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level10.md)
+###### [Level 1](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level01.md)
+
+In Level 1, we learn about exploiting code that uses `/usr/bin/env` and making the code exploit your script rather than the script it was attempting to execute.
+
+###### [Level 2](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level02.md)
+
+In Level 2, we learn about abusing environment variables to run arbitrary shell commands.
+
+###### [Level 3](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level03.md)
+
+In Level 3, we learn about creating a script that will be run by a crontab.
+
+###### [Level 4](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level04.md)
+
+In Level 4, we learn about using symlinks to get around a script that protects reading from a file by checking the filename.
+
+###### [Level 5](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level05.md)
+
+In Level 5, we learn about finding a backup that has weak permissions but contains a copy of the user's ssh keys.
+
+###### [Level 6](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level06.md)
+
+In Level 6, we learn about old Linux systems' password storage and using a password cracker to break into an account if we know the hash of the password.
+
+###### [Level 7](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level07.md)
+
+In Level 7, we learn about abusing the parameter of a Perl web server in order to run arbitrary commands.
+
+###### [Level 8](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level08.md)
+
+In Level 8, we learn about dumping a packet capture file in order to find a password.
+
+###### [Level 9](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level09.md)
+
+In Level 9, we learn about exploiting a vulnerable `preg_replace` call in PHP.
+
+###### [Level 10](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level10.md)
+
+In Level 10, we learn about swapping symlinks in order to exploit a time-to-check to time-to-use bug.
 
 ##### Protostar Exercises
 
