@@ -18,13 +18,13 @@ In fitting with the focus of the class, the emphasis of vulnerabilites researche
 ### Simple Exploit Demonstrations
 
 A basic buffer overflow demonstration:
-[Buffer Overflow](../Security/test_exploits/buffer_overflow)
+[Buffer Overflow](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/buffer_overflow)
 
 An example of using printf to pass malicious string data:
-[String Format](../Security/test_exploits/StringFormatVulnerability)
+[String Format](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/StringFormatVulnerability)
 
 A recent zero-day race condition for bypassing file permissions:
-[Dirty C0W](../Security/test_exploits/dirty_cow)
+[Dirty C0W](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/test_exploits/dirty_cow)
 
 ### Nebula Exercises
 
