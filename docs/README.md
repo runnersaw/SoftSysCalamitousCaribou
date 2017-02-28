@@ -46,7 +46,7 @@ A collection of exercises that we found at [exploit-exercises.com](https://explo
 A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/protostar/) to be useful for learning about C exploit techniques:
 
 
-[Stack 0](../Security/protostarExploits/stack0.md)
+[Stack 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack0.md)
 [Stack 3](../Security/protostarExploits/stack3.md)
 [Stack 4](../Security/protostarExploits/stack4.md)
 [Stack 6](../Security/protostarExploits/stack6.md)
