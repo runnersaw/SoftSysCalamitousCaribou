@@ -14,3 +14,41 @@ In the world where we all own many different interconnected devices of all shape
 We aimed to investigate types of general vulnerabilites that can be used by hackers, as well as learning about how software engineers can create code that is protected from these kinds of attacks.
 
 In fitting with the focus of the class, the emphasis of vulnerabilites researched revolves around Unix and C vulnerabilites.
+
+### Simple Exploit Demonstrations
+
+A basic buffer overflow demonstration:
+[Buffer Overflow](../Security/test_exploits/buffer_overflow)
+
+An example of using printf to pass malicious string data:
+[String Format](../Security/test_exploits/StringFormatVulnerability)
+
+A recent zero-day race condition for bypassing file permissions:
+[Dirty C0W](../Security/test_exploits/dirty_cow)
+
+### Nebula Exercises
+
+A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/nebula/) to be useful for learning about UNIX exploit techniques:
+
+[Level 1](../Security/nebulaExploits/level01.md)
+[Level 2](../Security/nebulaExploits/level02.md)
+[Level 3](../Security/nebulaExploits/level03.md)
+[Level 4](../Security/nebulaExploits/level04.md)
+[Level 5](../Security/nebulaExploits/level05.md)
+[Level 6](../Security/nebulaExploits/level06.md)
+[Level 7](../Security/nebulaExploits/level07.md)
+[Level 8](../Security/nebulaExploits/level08.md)
+[Level 9](../Security/nebulaExploits/level09.md)
+[Level 10](../Security/nebulaExploits/level10.md)
+
+### Protostar Exercises
+
+A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/protostar/) to be useful for learning about C exploit techniques:
+
+
+[Stack 0](../Security/protostarExploits/stack0.md)
+[Stack 3](../Security/protostarExploits/stack3.md)
+[Stack 4](../Security/protostarExploits/stack4.md)
+[Stack 6](../Security/protostarExploits/stack6.md)
+[Format 0](../Security/protostarExploits/format0.md)
+[Heap 0](../Security/protostarExploits/heap0.md)
