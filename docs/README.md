@@ -30,16 +30,16 @@ A recent zero-day race condition for bypassing file permissions:
 
 A collection of exercises that we found at [exploit-exercises.com](https://exploit-exercises.com/nebula/) to be useful for learning about UNIX exploit techniques:
 
-[Level 1](../Security/nebulaExploits/level01.md)
-[Level 2](../Security/nebulaExploits/level02.md)
-[Level 3](../Security/nebulaExploits/level03.md)
-[Level 4](../Security/nebulaExploits/level04.md)
-[Level 5](../Security/nebulaExploits/level05.md)
-[Level 6](../Security/nebulaExploits/level06.md)
-[Level 7](../Security/nebulaExploits/level07.md)
-[Level 8](../Security/nebulaExploits/level08.md)
-[Level 9](../Security/nebulaExploits/level09.md)
-[Level 10](../Security/nebulaExploits/level10.md)
+[Level 1](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level01.md)
+[Level 2](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level02.md)
+[Level 3](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level03.md)
+[Level 4](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level04.md)
+[Level 5](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level05.md)
+[Level 6](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level06.md)
+[Level 7](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level07.md)
+[Level 8](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level08.md)
+[Level 9](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level09.md)
+[Level 10](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/nebulaExploits/level10.md)
 
 ### Protostar Exercises
 
@@ -47,8 +47,8 @@ A collection of exercises that we found at [exploit-exercises.com](https://explo
 
 
 [Stack 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack0.md)
-[Stack 3](../Security/protostarExploits/stack3.md)
-[Stack 4](../Security/protostarExploits/stack4.md)
-[Stack 6](../Security/protostarExploits/stack6.md)
-[Format 0](../Security/protostarExploits/format0.md)
-[Heap 0](../Security/protostarExploits/heap0.md)
+[Stack 3](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack3.md)
+[Stack 4](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack4.md)
+[Stack 6](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack6.md)
+[Format 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/format0.md)
+[Heap 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/heap0.md)
