@@ -52,3 +52,4 @@ A collection of exercises that we found at [exploit-exercises.com](https://explo
 [Stack 6](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/stack6.md)
 [Format 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/format0.md)
 [Heap 0](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/heap0.md)
+[Heap 1](https://github.com/runnersaw/SoftSysCalamitousCaribou/blob/master/Security/protostarExploits/heap1.md)
